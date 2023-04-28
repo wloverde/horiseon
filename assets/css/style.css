@@ -23,7 +23,7 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-
+/* nav element for navigation bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
+/* image background 
+issue: how to add alt funtion */
 #hero {
     height: 800px;
     width: 100%;
@@ -57,6 +58,14 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Elements used for Main element*/
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -69,12 +78,7 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* Elements used for Aside Element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -91,7 +95,6 @@ hgroup {
     color: #ffffff;
 }
 
-
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -104,7 +107,7 @@ hgroup img {
     max-width: 150px;
 
 }
-
+/* IDs for main, directed to via Nav  */
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -130,34 +133,18 @@ hgroup img {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-#search-engine-optimization img {
+/* consolidated each section elements Img element */
+section img {
     max-height: 200px;
 }
 
-#online-reputation-management img {
-    max-height: 200px;
-}
 
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
 
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* used elements for footer */
 footer {
     padding: 30px;
     clear: both;
@@ -165,6 +152,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+h4 {
     font-size: 20px;
 }

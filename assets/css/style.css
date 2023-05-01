@@ -66,16 +66,19 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 /* Elements used for Aside Element */
@@ -101,7 +104,7 @@ h3 {
 }
 
 
-hgroup img {
+.block {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -134,7 +137,7 @@ hgroup img {
     color: #ffffff;
 }
 /* consolidated each section elements Img element */
-section img {
+.section{
     max-height: 200px;
 }
 
